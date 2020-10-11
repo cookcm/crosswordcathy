@@ -16,8 +16,9 @@ module.exports = {
     'react-dom': 'react-dom',
   },
   output: {
+    globalObject: 'this',
     filename: 'index.js',
-    path: path.join(__dirname, 'lib'),
+    path: path.join(__dirname, 'app'),
     libraryTarget: 'commonjs2',
   },
   resolve: {
@@ -60,5 +61,5 @@ module.exports = {
   optimization: {
     minimize: true,
     minimizer: [new TerserPlugin()],
-  },
+  }
 };
