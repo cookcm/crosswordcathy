@@ -18,7 +18,6 @@ module.exports = {
   output: {
     globalObject: 'this',
     filename: 'index.js',
-    path: path.join(__dirname, 'app'),
     libraryTarget: 'commonjs2',
   },
   resolve: {
