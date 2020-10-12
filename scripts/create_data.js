@@ -3,7 +3,7 @@ const fs = require('fs');
 const constants = require('./grids/Laclos-1758');
 
 
-const fileName = 'examples/exampleCrossword-cathy.js';
+const fileName = '../examples/exampleCrossword-cathy.js';
 
 function StartWriteToFile(strArr) {
   strArr.push('import React from \'react\';');

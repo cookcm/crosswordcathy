@@ -75,7 +75,7 @@
     "eslint": "eslint --color src/javascripts examples *.js",
     "test": "yarn eslint && yarn jest",
     "examples": "yarn run webpack-dev-server --host 0.0.0.0 --config webpack.config.examples.js",
-    "example-cathy": "yarn run webpack-dev-server --host 0.0.0.0 --config webpack.config.example-cathy.js",
+    "example_cathy": "yarn run webpack-dev-server --host 0.0.0.0 --config webpack.config.example_cathy.js",
     "build": "yarn run webpack --config webpack.config.js"
   },
   "files": [

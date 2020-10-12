@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Crossword from 'crosswordcathy/crossword';
+import Crossword from 'crosswords/crossword';
 
 ReactDOM.render(<Crossword data={
     {
